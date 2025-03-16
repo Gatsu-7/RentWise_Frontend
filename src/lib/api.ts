@@ -127,7 +127,7 @@ export const generateAgreement = async (
 ): Promise<string> => {
   try {
     const response = await axios.post(
-      `${API_BASE_URL}/generate-agreement`,
+      `${API_BASE_URL}generate-agreement`,
       formData,
       {
         headers: { "Content-Type": "application/json" },
